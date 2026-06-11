@@ -2541,7 +2541,7 @@ function Avatar({
 function BrandLogo() {
   return (
     <div className="brand-logo">
-      <img src="/logo.png" alt="Меридиан" />
+      <img src="logo.png" alt="Меридиан" />
     </div>
   );
 }
@@ -2890,7 +2890,7 @@ function HomeIcon({ active = false }: { active?: boolean }) {
   return (
     <img
       className="nav-icon"
-      src={`/icons-navbar/${active ? 'home-active' : 'home'}.svg`}
+      src={`icons-navbar/${active ? 'home-active' : 'home'}.svg`}
       alt="Главная"
       width={24}
       height={24}
@@ -2902,7 +2902,7 @@ function FeedIcon({ active = false }: { active?: boolean }) {
   return (
     <img
       className="nav-icon"
-      src={`/icons-navbar/${active ? 'lenta-active' : 'lenta'}.svg`}
+      src={`icons-navbar/${active ? 'lenta-active' : 'lenta'}.svg`}
       alt="Лента"
       width={24}
       height={24}
@@ -2914,7 +2914,7 @@ function ChartIcon({ active = false }: { active?: boolean }) {
   return (
     <img
       className="nav-icon"
-      src={`/icons-navbar/${active ? 'stats-active' : 'stats'}.svg`}
+      src={`icons-navbar/${active ? 'stats-active' : 'stats'}.svg`}
       alt="Статистика"
       width={24}
       height={24}
@@ -2926,7 +2926,7 @@ function ProfileIcon({ active = false }: { active?: boolean }) {
   return (
     <img
       className="nav-icon"
-      src={`/icons-navbar/${active ? 'user-active' : 'user'}.svg`}
+      src={`icons-navbar/${active ? 'user-active' : 'user'}.svg`}
       alt="Профиль"
       width={24}
       height={24}
@@ -2938,7 +2938,7 @@ function ProfileDataIcon() {
   return (
     <img
       className="profile-asset-icon"
-      src="/icons-in-profile/profile_data.svg"
+      src="icons-in-profile/profile_data.svg"
       alt="Личные данные"
       width={24}
       height={24}
@@ -2950,7 +2950,7 @@ function SavedIcon() {
   return (
     <img
       className="profile-asset-icon"
-      src="/icons-in-profile/saved.svg"
+      src="icons-in-profile/saved.svg"
       alt="Избранное"
       width={24}
       height={24}
@@ -2962,7 +2962,7 @@ function StatsIcon() {
   return (
     <img
       className="profile-asset-icon"
-      src="/icons-in-profile/stats.svg"
+      src="icons-in-profile/stats.svg"
       alt="Статистика"
       width={24}
       height={24}
@@ -2974,7 +2974,7 @@ function NotificationsIcon() {
   return (
     <img
       className="profile-asset-icon"
-      src="/icons-in-profile/notifications.svg"
+      src="icons-in-profile/notifications.svg"
       alt="Уведомления"
       width={24}
       height={24}

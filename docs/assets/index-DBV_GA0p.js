@@ -10064,7 +10064,7 @@ var recipes = [
 		subtitle: "Легкий завтрак с ягодной свежестью",
 		description: "Мягкая овсяная каша с черникой для спокойного начала дня.",
 		category: "Завтраки",
-		cardImage: "/recipes/oatmeal-berries.jpg",
+		cardImage: "recipes/oatmeal-berries.jpg",
 		cardImagePosition: "center 52%",
 		cookMinutes: 10,
 		calories: 150,
@@ -10093,7 +10093,7 @@ var recipes = [
 		subtitle: "Теплый белковый завтрак с овощами",
 		description: "Омлет с перцем и помидорами, который быстро готовится и хорошо насыщает.",
 		category: "Завтраки",
-		cardImage: "/recipes/vegetable-omelet.jpg",
+		cardImage: "recipes/vegetable-omelet.jpg",
 		cardImagePosition: "center 50%",
 		cookMinutes: 12,
 		calories: 130,
@@ -10126,7 +10126,7 @@ var recipes = [
 		subtitle: "Нежная запеканка для завтрака или перекуса",
 		description: "Простая творожная запеканка с мягкой сладостью и плотной текстурой.",
 		category: "Завтраки",
-		cardImage: "/recipes/cottage-casserole.jpg",
+		cardImage: "recipes/cottage-casserole.jpg",
 		cardImagePosition: "center 50%",
 		cookMinutes: 40,
 		calories: 170,
@@ -10160,7 +10160,7 @@ var recipes = [
 		subtitle: "Освежающий салат с белком и легкой заправкой",
 		description: "Куриная грудка, огурец и йогурт собираются в простой сытный салат.",
 		category: "Салаты",
-		cardImage: "/recipes/chicken-cucumber-salad.jpg",
+		cardImage: "recipes/chicken-cucumber-salad.jpg",
 		cardImagePosition: "center 50%",
 		cookMinutes: 20,
 		calories: 120,
@@ -10193,7 +10193,7 @@ var recipes = [
 		subtitle: "Свежий салат с насыщенным вкусом",
 		description: "Шпинат, орехи и оливки дают хруст, жиры и яркий вкус без тяжелой заправки.",
 		category: "Салаты",
-		cardImage: "/recipes/spinach-nuts-olives-salad.jpg",
+		cardImage: "recipes/spinach-nuts-olives-salad.jpg",
 		cardImagePosition: "center 50%",
 		cookMinutes: 10,
 		calories: 120,
@@ -10225,7 +10225,7 @@ var recipes = [
 		subtitle: "Нежный суп-пюре с мягким вкусом",
 		description: "Суп из цветной капусты и лука с кремовой текстурой без тяжелых добавок.",
 		category: "Супы",
-		cardImage: "/recipes/cauliflower-soup.jpg",
+		cardImage: "recipes/cauliflower-soup.jpg",
 		cardImagePosition: "center 50%",
 		cookMinutes: 20,
 		calories: 60,
@@ -10258,7 +10258,7 @@ var recipes = [
 		subtitle: "Тушеные овощи для спокойного ужина",
 		description: "Баклажаны, кабачки и томаты собираются в мягкое овощное рагу.",
 		category: "Горячее",
-		cardImage: "/recipes/vegetable-ragout.jpg",
+		cardImage: "recipes/vegetable-ragout.jpg",
 		cardImagePosition: "center 50%",
 		cookMinutes: 30,
 		calories: 80,
@@ -10291,7 +10291,7 @@ var recipes = [
 		subtitle: "Простые домашние котлеты из куриного фарша",
 		description: "Сытные куриные котлеты без сложных ингредиентов и лишней нагрузки.",
 		category: "Горячее",
-		cardImage: "/recipes/chicken-cutlets.jpg",
+		cardImage: "recipes/chicken-cutlets.jpg",
 		cardImagePosition: "center 50%",
 		cookMinutes: 25,
 		calories: 180,
@@ -10320,7 +10320,7 @@ var recipes = [
 		subtitle: "Запеченное овощное блюдо с сырной корочкой",
 		description: "Баклажаны, томаты и моцарелла дают насыщенный вкус и простую подачу.",
 		category: "Горячее",
-		cardImage: "/recipes/baked-eggplant-tomato-cheese.jpg",
+		cardImage: "recipes/baked-eggplant-tomato-cheese.jpg",
 		cardImagePosition: "center 50%",
 		cookMinutes: 25,
 		calories: 180,
@@ -10353,7 +10353,7 @@ var recipes = [
 		subtitle: "Легкая рыба с лимонной свежестью",
 		description: "Нежная треска с лимоном и оливковым маслом для спокойного ужина.",
 		category: "Рыба",
-		cardImage: "/recipes/baked-cod-lemon.jpg",
+		cardImage: "recipes/baked-cod-lemon.jpg",
 		cardImagePosition: "center 50%",
 		cookMinutes: 25,
 		calories: 130,
@@ -12689,7 +12689,7 @@ function BrandLogo() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 		className: "brand-logo",
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-			src: "/logo.png",
+			src: "logo.png",
 			alt: "Меридиан"
 		})
 	});
@@ -12894,7 +12894,7 @@ function IconWrapper({ children, active = false, filled = false }) {
 function HomeIcon({ active = false }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 		className: "nav-icon",
-		src: `/icons-navbar/${active ? "home-active" : "home"}.svg`,
+		src: `icons-navbar/${active ? "home-active" : "home"}.svg`,
 		alt: "Главная",
 		width: 24,
 		height: 24
@@ -12903,7 +12903,7 @@ function HomeIcon({ active = false }) {
 function FeedIcon({ active = false }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 		className: "nav-icon",
-		src: `/icons-navbar/${active ? "lenta-active" : "lenta"}.svg`,
+		src: `icons-navbar/${active ? "lenta-active" : "lenta"}.svg`,
 		alt: "Лента",
 		width: 24,
 		height: 24
@@ -12912,7 +12912,7 @@ function FeedIcon({ active = false }) {
 function ChartIcon({ active = false }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 		className: "nav-icon",
-		src: `/icons-navbar/${active ? "stats-active" : "stats"}.svg`,
+		src: `icons-navbar/${active ? "stats-active" : "stats"}.svg`,
 		alt: "Статистика",
 		width: 24,
 		height: 24
@@ -12921,7 +12921,7 @@ function ChartIcon({ active = false }) {
 function ProfileIcon({ active = false }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 		className: "nav-icon",
-		src: `/icons-navbar/${active ? "user-active" : "user"}.svg`,
+		src: `icons-navbar/${active ? "user-active" : "user"}.svg`,
 		alt: "Профиль",
 		width: 24,
 		height: 24
@@ -12930,7 +12930,7 @@ function ProfileIcon({ active = false }) {
 function ProfileDataIcon() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 		className: "profile-asset-icon",
-		src: "/icons-in-profile/profile_data.svg",
+		src: "icons-in-profile/profile_data.svg",
 		alt: "Личные данные",
 		width: 24,
 		height: 24
@@ -12939,7 +12939,7 @@ function ProfileDataIcon() {
 function SavedIcon() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 		className: "profile-asset-icon",
-		src: "/icons-in-profile/saved.svg",
+		src: "icons-in-profile/saved.svg",
 		alt: "Избранное",
 		width: 24,
 		height: 24
@@ -12948,7 +12948,7 @@ function SavedIcon() {
 function StatsIcon() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 		className: "profile-asset-icon",
-		src: "/icons-in-profile/stats.svg",
+		src: "icons-in-profile/stats.svg",
 		alt: "Статистика",
 		width: 24,
 		height: 24
@@ -12957,7 +12957,7 @@ function StatsIcon() {
 function NotificationsIcon() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 		className: "profile-asset-icon",
-		src: "/icons-in-profile/notifications.svg",
+		src: "icons-in-profile/notifications.svg",
 		alt: "Уведомления",
 		width: 24,
 		height: 24
@@ -13070,7 +13070,7 @@ var geologicaFontFaces = `
   font-style: normal;
   font-display: swap;
   font-weight: 400;
-  src: url("/fonts/geologica-latin-400-normal.woff2") format("woff2");
+  src: url("fonts/geologica-latin-400-normal.woff2") format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 @font-face {
@@ -13078,7 +13078,7 @@ var geologicaFontFaces = `
   font-style: normal;
   font-display: swap;
   font-weight: 500;
-  src: url("/fonts/geologica-latin-500-normal.woff2") format("woff2");
+  src: url("fonts/geologica-latin-500-normal.woff2") format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 @font-face {
@@ -13086,7 +13086,7 @@ var geologicaFontFaces = `
   font-style: normal;
   font-display: swap;
   font-weight: 600;
-  src: url("/fonts/geologica-latin-600-normal.woff2") format("woff2");
+  src: url("fonts/geologica-latin-600-normal.woff2") format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 @font-face {
@@ -13094,7 +13094,7 @@ var geologicaFontFaces = `
   font-style: normal;
   font-display: swap;
   font-weight: 700;
-  src: url("/fonts/geologica-latin-700-normal.woff2") format("woff2");
+  src: url("fonts/geologica-latin-700-normal.woff2") format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 @font-face {
@@ -13102,7 +13102,7 @@ var geologicaFontFaces = `
   font-style: normal;
   font-display: swap;
   font-weight: 800;
-  src: url("/fonts/geologica-latin-800-normal.woff2") format("woff2");
+  src: url("fonts/geologica-latin-800-normal.woff2") format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 @font-face {
@@ -13110,7 +13110,7 @@ var geologicaFontFaces = `
   font-style: normal;
   font-display: swap;
   font-weight: 400;
-  src: url("/fonts/geologica-cyrillic-400-normal.woff2") format("woff2");
+  src: url("fonts/geologica-cyrillic-400-normal.woff2") format("woff2");
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 @font-face {
@@ -13118,7 +13118,7 @@ var geologicaFontFaces = `
   font-style: normal;
   font-display: swap;
   font-weight: 500;
-  src: url("/fonts/geologica-cyrillic-500-normal.woff2") format("woff2");
+  src: url("fonts/geologica-cyrillic-500-normal.woff2") format("woff2");
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 @font-face {
@@ -13126,7 +13126,7 @@ var geologicaFontFaces = `
   font-style: normal;
   font-display: swap;
   font-weight: 600;
-  src: url("/fonts/geologica-cyrillic-600-normal.woff2") format("woff2");
+  src: url("fonts/geologica-cyrillic-600-normal.woff2") format("woff2");
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 @font-face {
@@ -13134,7 +13134,7 @@ var geologicaFontFaces = `
   font-style: normal;
   font-display: swap;
   font-weight: 700;
-  src: url("/fonts/geologica-cyrillic-700-normal.woff2") format("woff2");
+  src: url("fonts/geologica-cyrillic-700-normal.woff2") format("woff2");
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 @font-face {
@@ -13142,7 +13142,7 @@ var geologicaFontFaces = `
   font-style: normal;
   font-display: swap;
   font-weight: 800;
-  src: url("/fonts/geologica-cyrillic-800-normal.woff2") format("woff2");
+  src: url("fonts/geologica-cyrillic-800-normal.woff2") format("woff2");
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }`;
 function injectGeologicaFonts() {
