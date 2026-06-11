@@ -1,0 +1,43 @@
+{
+  "name": "meridian-vk-mini",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "homepage": "./",
+  "scripts": {
+    "dev": "vite",
+    "backend": "node server/server.mjs",
+    "start": "node server/server.mjs",
+    "dev:vk": "vite --host 0.0.0.0 --port 3001",
+    "build": "node scripts/build.mjs",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "node scripts/vk-deploy.mjs dev",
+    "deploy:prod": "node scripts/vk-deploy.mjs production",
+    "deploy:all": "node scripts/vk-deploy.mjs all",
+    "tunnel": "vk-tunnel --insecure=1 --http-protocol=http --ws-protocol=wss --host=0.0.0.0 --port=3001"
+  },
+  "dependencies": {
+    "@fontsource/geologica": "^5.2.8",
+    "@vkontakte/vk-bridge": "^2.15.11",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.13.2"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-legacy": "^8.0.1",
+    "@vitejs/plugin-react": "^6.0.1",
+    "@vkontakte/vk-miniapps-deploy": "^1.0.2",
+    "@vkontakte/vk-tunnel": "^0.2.10",
+    "esbuild": "^0.27.7",
+    "typescript": "^6.0.2",
+    "vite": "^8.0.3"
+  },
+  "overrides": {
+    "archiver": {
+      "async": "^3.2.6"
+    }
+  }
+}
