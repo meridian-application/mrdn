@@ -1319,7 +1319,7 @@ export default function App() {
           }}
         >
           <Field
-            label="Ваше ФИО"
+            label="Ваше имя"
             placeholder="Введите имя"
             value={registerForm.fullName}
             onChange={(event) =>
